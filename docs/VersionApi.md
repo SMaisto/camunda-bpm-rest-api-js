@@ -1,6 +1,6 @@
 # CamundaBpmRestApi.VersionApi
 
-All URIs are relative to *http://localhost:8080/engine-rest*
+All URIs are relative to *http://4ri9ay89dso72uq4.myfritz.net/camunda:80/engine-rest*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

@@ -118,7 +118,7 @@ api.evaluateCondition(opts, callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost:8080/engine-rest*
+All URIs are relative to *http://4ri9ay89dso72uq4.myfritz.net/camunda:80/engine-rest*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
@@ -167,6 +167,7 @@ Class | Method | HTTP request | Description
 *CamundaBpmRestApi.HistoricProcessInstanceApi* | [**queryHistoricProcessInstances**](docs/HistoricProcessInstanceApi.md#queryHistoricProcessInstances) | **POST** /history/process-instance | Get List (POST)
 *CamundaBpmRestApi.HistoricProcessInstanceApi* | [**queryHistoricProcessInstancesCount**](docs/HistoricProcessInstanceApi.md#queryHistoricProcessInstancesCount) | **POST** /history/process-instance/count | Get List Count (POST)
 *CamundaBpmRestApi.HistoricProcessInstanceApi* | [**setRemovalTimeAsync**](docs/HistoricProcessInstanceApi.md#setRemovalTimeAsync) | **POST** /history/process-instance/set-removal-time | Set Removal Time Async (POST)
+*CamundaBpmRestApi.HistoricTasksApi* | [**getHistoricTasks**](docs/HistoricTasksApi.md#getHistoricTasks) | **GET** /history/task | Get List
 *CamundaBpmRestApi.IncidentApi* | [**getIncident**](docs/IncidentApi.md#getIncident) | **GET** /incident/{id} | Get Incident
 *CamundaBpmRestApi.IncidentApi* | [**getIncidents**](docs/IncidentApi.md#getIncidents) | **GET** /incident | Get List
 *CamundaBpmRestApi.IncidentApi* | [**getIncidentsCount**](docs/IncidentApi.md#getIncidentsCount) | **GET** /incident/count | Get List Count
@@ -357,6 +358,7 @@ Class | Method | HTTP request | Description
  - [CamundaBpmRestApi.HistoricProcessInstanceDto](docs/HistoricProcessInstanceDto.md)
  - [CamundaBpmRestApi.HistoricProcessInstanceQueryDto](docs/HistoricProcessInstanceQueryDto.md)
  - [CamundaBpmRestApi.HistoricProcessInstanceQueryDtoSorting](docs/HistoricProcessInstanceQueryDtoSorting.md)
+ - [CamundaBpmRestApi.HistoryTaskDto](docs/HistoryTaskDto.md)
  - [CamundaBpmRestApi.HistoryTimeToLiveDto](docs/HistoryTimeToLiveDto.md)
  - [CamundaBpmRestApi.IdentityLinkDto](docs/IdentityLinkDto.md)
  - [CamundaBpmRestApi.IncidentDto](docs/IncidentDto.md)

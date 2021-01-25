@@ -62,6 +62,7 @@ import HistoricActivityInstanceQueryDtoSorting from './model/HistoricActivityIns
 import HistoricProcessInstanceDto from './model/HistoricProcessInstanceDto';
 import HistoricProcessInstanceQueryDto from './model/HistoricProcessInstanceQueryDto';
 import HistoricProcessInstanceQueryDtoSorting from './model/HistoricProcessInstanceQueryDtoSorting';
+import HistoryTaskDto from './model/HistoryTaskDto';
 import HistoryTimeToLiveDto from './model/HistoryTimeToLiveDto';
 import IdentityLinkDto from './model/IdentityLinkDto';
 import IncidentDto from './model/IncidentDto';
@@ -134,6 +135,7 @@ import EventSubscriptionApi from './api/EventSubscriptionApi';
 import ExternalTaskApi from './api/ExternalTaskApi';
 import HistoricActivityInstanceApi from './api/HistoricActivityInstanceApi';
 import HistoricProcessInstanceApi from './api/HistoricProcessInstanceApi';
+import HistoricTasksApi from './api/HistoricTasksApi';
 import IncidentApi from './api/IncidentApi';
 import MessageApi from './api/MessageApi';
 import MetricsApi from './api/MetricsApi';
@@ -483,6 +485,12 @@ export {
      * @property {module:model/HistoricProcessInstanceQueryDtoSorting}
      */
     HistoricProcessInstanceQueryDtoSorting,
+
+    /**
+     * The HistoryTaskDto model constructor.
+     * @property {module:model/HistoryTaskDto}
+     */
+    HistoryTaskDto,
 
     /**
      * The HistoryTimeToLiveDto model constructor.
@@ -915,6 +923,12 @@ export {
     * @property {module:api/HistoricProcessInstanceApi}
     */
     HistoricProcessInstanceApi,
+
+    /**
+    * The HistoricTasksApi service constructor.
+    * @property {module:api/HistoricTasksApi}
+    */
+    HistoricTasksApi,
 
     /**
     * The IncidentApi service constructor.
